@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="25dp"
+    android:weightSum="100"
+    tools:context=".Login_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="10">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/_1"
+                android:textSize="20sp"
+                android:backgroundTint="@color/my_primary"
+                android:background="@drawable/circular"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/_2"
+                android:textSize="20sp"
+                android:backgroundTint="@color/grey"
+                android:background="@drawable/circular"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:text="@string/_3"
+                android:textSize="20sp"
+                android:backgroundTint="@color/grey"
+                android:background="@drawable/circular"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:layout_margin="10dp"/>
+        </RelativeLayout>
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="20"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mobile"
+            android:layout_marginTop="20dp"
+            app:tint="@color/my_primary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_mobile_number"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="10">
+
+        <com.hbb20.CountryCodePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccp_showFlag="false"
+            android:background="@color/white"
+            app:ccp_showNameCode="false"
+            android:id="@+id/country_code"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="@string/phone"
+            android:textColorHint="@color/grey"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_rounder"
+            android:elevation="5dp"
+            android:id="@+id/login_phone_number"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttText"
+            android:id="@+id/login_otp_sent_btn"
+            android:background="@drawable/buttun_rounder"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

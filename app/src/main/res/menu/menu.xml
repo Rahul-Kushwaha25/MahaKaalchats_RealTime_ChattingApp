@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="chats"
+        android:id="@+id/chatsmenu"
+        android:icon="@drawable/logo"/>
+
+    <item android:title="Profile"
+        android:id="@+id/profilemenu"
+        android:icon="@drawable/baseline_person_24"/>
+
+</menu>

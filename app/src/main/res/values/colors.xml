@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="my_primary">#FF03DAC5</color>
+    <color name="my_secondary">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#928E8E</color>
+
+    <color name="leftchatmsg">#087A6F</color>
+    <color name="rightchatmsg">#053339</color>
+
+    <color name="bgcolor">#ffffff</color>
+
+</resources>

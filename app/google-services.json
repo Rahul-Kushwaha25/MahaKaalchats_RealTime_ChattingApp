@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034954516777",
+    "project_id": "chatachats-69",
+    "storage_bucket": "chatachats-69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034954516777:android:90f09a772c2fa22552ef38",
+        "android_client_info": {
+          "package_name": "com.rahul.bmicalculator.mahakaalchats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034954516777-f3300ea4s8c7dtfm80dg7c85lqo2m2l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YPq6tEXj1yM5uIj10N7CjB4joaigwA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034954516777-f3300ea4s8c7dtfm80dg7c85lqo2m2l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

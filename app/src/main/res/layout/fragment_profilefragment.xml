@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".profilefragment">
+
+    <ImageView
+        android:id="@+id/update_profile_picView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/circular"
+        android:backgroundTint="@color/my_primary"
+        android:src="@drawable/baseline_person_24"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:padding="10dp"
+        android:id="@+id/username_edt"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_rounder"
+        android:elevation="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number"
+        android:inputType="text"
+        android:padding="10dp"
+        android:id="@+id/phone_edt"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/black"
+        android:enabled="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_rounder"
+        android:elevation="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="NEXT"
+        android:id="@+id/update_user_btn"
+        android:background="@drawable/buttun_rounder"/>
+
+    <TextView
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/my_secondary"
+        android:text="Logout"/>
+
+
+
+
+</LinearLayout>
